@@ -1,0 +1,21 @@
+.tab{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-img{
+            width: 60rpx;
+            height: 60rpx;
+            border-radius: 50%;
+        }
+        &-title{
+            margin-top: 10rpx;
+            font-size: 24rpx;
+            color: #090909;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.list-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60rpx;
+    box-sizing: border-box;
+    &-item{
+        width: 220rpx;
+        &-img{
+            width: 220rpx;
+            height: 480rpx;
+            border-radius: 10rpx;
+            // margin-left: 20rpx;
+            // &:nth-child(3n) {
+            //     margin-left: 0;
+            // }
+        }
+    }
+}
