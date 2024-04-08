@@ -8,6 +8,7 @@
  */
 export default defineAppConfig({
   pages: [
+    'pages/preview/index',
     'pages/my/index',
     'pages/search/index',
     'pages/index/index'
