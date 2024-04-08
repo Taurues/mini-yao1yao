@@ -8,11 +8,10 @@
  */
 export default defineAppConfig({
   pages: [
+    'pages/index/index',
     'pages/preview/index',
     'pages/my/index',
-    'pages/search/index',
-    'pages/index/index'
-    
+    'pages/search/index'
   ],
   window: {
     backgroundTextStyle: 'light',
