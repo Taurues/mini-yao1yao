@@ -19,6 +19,7 @@ export default defineAppConfig({
     navigationBarTitleText: 'WeChat',
     navigationBarTextStyle: 'black'
   },
+  entryPagePath: 'pages/index/index',
   tabBar: {
     list: [
       {
