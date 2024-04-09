@@ -18,8 +18,8 @@
 import './index.scss'
 
 const tabList = [
-    { title: '壁纸', url: require('../../../../assets/images/yao.png')},
-    { title: '头像', url: require('../../../../assets/images/yao.png')},
-    { title: '表情包', url: require('../../../../assets/images/yao.png')},
+    { title: '壁纸', url: 'https://tse1-mm.cn.bing.net/th/id/OIP-C.RKBBY__wnyLJyUjbFPjTXwAAAA?rs=1&pid=ImgDetMain' },
+    { title: '头像', url: 'https://tse1-mm.cn.bing.net/th/id/OIP-C.RKBBY__wnyLJyUjbFPjTXwAAAA?rs=1&pid=ImgDetMain' },
+    { title: '表情包', url: 'https://tse1-mm.cn.bing.net/th/id/OIP-C.RKBBY__wnyLJyUjbFPjTXwAAAA?rs=1&pid=ImgDetMain' },
 ]
 </script>

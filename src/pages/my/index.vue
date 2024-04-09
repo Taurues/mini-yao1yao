@@ -10,8 +10,8 @@
   <view class="my">
     <view class="my-header">
       <view class="my-header-box">
-        <image class="header-img" src="../../assets/images/yao.png" />
-        <view class="header-name">昵称23344444</view>
+        <image class="header-img" src="https://tse1-mm.cn.bing.net/th/id/OIP-C.RKBBY__wnyLJyUjbFPjTXwAAAA?rs=1&pid=ImgDetMain" />
+        <view class="header-name">小张张</view>
       </view>
     </view>
     <view class="my-setting">
