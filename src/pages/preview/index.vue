@@ -1,5 +1,16 @@
+<!--
+ * @Author: zhangyanru zhangyanru@wshifu.com
+ * @Date: 2024-04-07 17:11:55
+ * @LastEditors: zhangyanru zhangyanru@wshifu.com
+ * @LastEditTime: 2024-04-11 16:45:15
+ * @FilePath: /frontend/src/pages/preview/index.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <template>
     <view class="preview">
+        <view class="preview-back" :style="{ top: react.top + 'px'}">
+            <image class="preview-back-left" src="../../assets/images/arrow_left.png"/>
+        </view>
         <view class="preview-text">
             <view class="time">10:07</view>
             <view class="date">2024年01月01日 星期一</view>
@@ -14,7 +25,11 @@
 </template>
 <script setup>
 import './index.scss'
+import Taro from '@tarojs/taro'
+// 获取菜单按钮（右上角胶囊按钮）的布局位置信息。坐标信息以屏幕左上角为原点。
+const rect = Taro.getMenuButtonBoundingClientRect()
 
+// 保存图片
 function saveImg() {
     Taro.getSetting({
         success: function (res) {

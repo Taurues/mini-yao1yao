@@ -1,3 +1,11 @@
+<!--
+ * @Author: zhangyanru zhangyanru@wshifu.com
+ * @Date: 2024-04-07 16:47:02
+ * @LastEditors: zhangyanru zhangyanru@wshifu.com
+ * @LastEditTime: 2024-04-11 15:43:49
+ * @FilePath: /frontend/src/pages/index/components/list/index.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <script setup>
 import './index.scss'
 import Taro from '@tarojs/taro'
@@ -11,6 +19,7 @@ const list = Array.from({ length: 50 }).fill(1).map((t,i) => {
 })
 
  function handleClick() {
+    console.log('click :>> ');
     Taro.navigateTo({
         url: `/pages/preview/index?id=1`
     })
